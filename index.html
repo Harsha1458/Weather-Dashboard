@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Navigation Bar -->
+        <nav class="nav-styling">
+            Weather Dashboard
+        </nav>
+
+        <!-- Main Content -->
+        <div class="lower-contaioner">
+            <div class="details-container">
+                <!-- City Name Input -->
+                <p class="city-name-styling">Enter a City Name</p>
+                <input placeholder="Eg: New York, London" type="text" class="input-styling" id="inputData" />
+                <button class="search-button-styling" id="searchButton">Search</button>
+                <!-- Line separator for UI -->
+                <div class="line-container">
+                    <hr />
+                    or
+                    <hr />
+                </div>
+            </div>
+
+            <!-- Button for current location -->
+            <!-- <button class="current-location-button" id="currentLocationButton">Use Current Location</button> -->
+
+            <!-- Weather Data Container -->
+            <div class="weather-data-container" id="weatherDataContainer">
+                <!-- Weather details will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

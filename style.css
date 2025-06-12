@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.main-container {
+    margin: 0px;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    /* Neutral background color for a formal look */
+}
+
+.nav-styling {
+    background-color: #2C3E50;
+    /* Dark navy blue for a formal look */
+    text-align: center;
+    color: #ffffff;
+    font-family: "Bree Serif", serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.lower-contaioner {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 728px) {
+    .lower-contaioner {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.details-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-styling {
+    width: 100%;
+    /* Make input field fill the container */
+    max-width: 350px;
+    /* Maximum width for larger screens */
+    height: 40px;
+    border-radius: 5px;
+    color: #2C3E50;
+    padding-left: 10px;
+    border: 1px solid #BDC3C7;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.city-name-styling {
+    color: #2C3E50;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.search-button-styling {
+    background-color: #3498DB;
+    /* Blue for a professional look */
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.current-location-button {
+    background-color: #1ABC9C;
+    /* Light teal color */
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.line-container {
+    display: flex;
+    color: #2C3E50;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid #BDC3C7;
+    width: 100%;
+}
+
+.weather-data-container {
+    width: 65%;
+    margin-left: 10px;
+}
+
+.city-details-container {
+    background-color: #3498DB;
+    /* Blue background for city weather box */
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.city-heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-heading {
+    font-size: 22px;
+    font-family: "Bree Serif", serif;
+    font-weight: 700;
+}
+
+.forecast-heading-element {
+    color: #2C3E50;
+    font-family: "Bree Serif", serif;
+    font-weight: 600;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eachdayForecast {
+    background-color: #BDC3C7;
+    /* Light grey for daily forecast boxes */
+    color: #2C3E50;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 20px;
+    width: 24%;
+    margin: 10px;
+}
+
+.error-message {
+    color: #E74C3C;
+    /* Red color for error */
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 20px;
+    text-align: center;
+}
